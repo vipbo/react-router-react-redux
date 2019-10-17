@@ -22,7 +22,7 @@ render(){
             <Link to = '/test'>test </Link>
 
             <Route path="/"  component={Home} exact />
-            <Route path="/counter" component={Counter} exact {...this.props} />
+            <Route path="/counter" component={Counter} exact />
             <Route path="/test" component={TestPage} exact />
         </Router>
     </div>

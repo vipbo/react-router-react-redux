@@ -17,7 +17,8 @@ import * as actions from '../store/action'
 
 function mapStateToProps (state){
     return {
-        counter:state
+        counter:state,
+        testObj:{num:666}
     }
 }
 function mapDispatchToProps(dispatch){
